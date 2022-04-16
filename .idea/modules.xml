@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/ParentProject/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/ParentProject/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParentProject/ParentProject.iml" filepath="$PROJECT_DIR$/ParentProject/ParentProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/Payment/Payment.iml" filepath="$PROJECT_DIR$/ParentProject/Payment/Payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/Product/Product.iml" filepath="$PROJECT_DIR$/ParentProject/Product/Product.iml" />
     </modules>
   </component>
 </project>

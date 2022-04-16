@@ -13,6 +13,8 @@
         <module>Gateway</module>
         <module>AuthService</module>
         <module>Client</module>
+        <module>Product</module>
+        <module>Payment</module>
     </modules>
 
     <properties>
