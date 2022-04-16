@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="EurekaServer" />
         <module name="Payment" />
         <module name="Gateway" />
+        <module name="Bot" />
         <module name="AuthService" />
         <module name="Chat" />
         <module name="Product" />
@@ -18,18 +20,20 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AuthService" target="11" />
+      <module name="Bot" target="11" />
       <module name="Chat" target="11" />
       <module name="Client" target="11" />
       <module name="EurekaServer" target="11" />
       <module name="Gateway" target="11" />
       <module name="Notification" target="11" />
       <module name="ParentProject" target="11" />
-      <module name="Payment" target="17" />
-      <module name="Product" target="17" />
+      <module name="Payment" target="11" />
+      <module name="Product" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Bot" options="" />
       <module name="Chat" options="" />
       <module name="Notification" options="" />
     </option>
