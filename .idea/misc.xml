@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ParentProject/pom.xml" />
+        <option value="$PROJECT_DIR$/ParentProject/Chat/pom.xml" />
+        <option value="$PROJECT_DIR$/ParentProject/Notification/pom.xml" />
       </list>
     </option>
   </component>

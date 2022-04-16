@@ -7,21 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
-        <module name="Product" />
         <module name="Payment" />
-        <module name="Client" />
         <module name="Gateway" />
         <module name="AuthService" />
+        <module name="Chat" />
+        <module name="Product" />
+        <module name="Client" />
+        <module name="Notification" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AuthService" target="11" />
+      <module name="Chat" target="11" />
       <module name="Client" target="11" />
       <module name="EurekaServer" target="11" />
       <module name="Gateway" target="11" />
+      <module name="Notification" target="11" />
       <module name="ParentProject" target="11" />
       <module name="Payment" target="17" />
       <module name="Product" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chat" options="" />
+      <module name="Notification" options="" />
+    </option>
   </component>
 </project>
