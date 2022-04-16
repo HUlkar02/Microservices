@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/AuthService/AuthService.iml" filepath="$PROJECT_DIR$/ParentProject/AuthService/AuthService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/Client/Client.iml" filepath="$PROJECT_DIR$/ParentProject/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/ParentProject/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/ParentProject/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject/ParentProject.iml" filepath="$PROJECT_DIR$/ParentProject/ParentProject.iml" />
+    </modules>
+  </component>
+</project>
